@@ -3,15 +3,27 @@
 
 # Don't call the function, you just need to define it.
 
+list = [1,99,-5,4,2]
+def all_positives():
+    for num in list:
+        if num < 0:
+            return True
+        else:
+            return False
 
-
-
-
+print(all_positives())
 
 # Dynamic Functions Practice #2
 # Create a function (sum_less) that adds the numbers of a list as long as they are greater than 0 and less than 1000, and returns the result of said sum. Create a numbers variable, storing a list of numbers so we can test it.
 
-
+# list_2 = [4,2000,54,697]
+# def sum_less():
+#     for num in list_2:
+#         if num > 0 < 1000:
+#             sum += num
+#             return sum
+        
+# print(sum_less)
 
 
 
