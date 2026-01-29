@@ -33,7 +33,7 @@ print(sum_squares(1,5,7))
 # Create a function called absolute_sum, which takes any number of arguments, and returns the sum of their absolute values (that is, it takes the non-negative values and adds them together, in other words, considers them all - negative and positive - as positive).
 
 def absolute_sum(*args):
-    sum = 0
+    total = 0
     for num in args:
         total += abs(num)
     return total
@@ -50,7 +50,10 @@ print(absolute_sum(-1,-4,-5))
 
 
 def personal_numbers(name,*args):
+    sum_numbers = 0
+    for nums in args:
+        nums += sum_numbers
+    print(f"{name} the sum of your numbers is {sum_numbers}")
 
+personal_numbers('jesus', 1,4,5,6)
 
-
-#print({})

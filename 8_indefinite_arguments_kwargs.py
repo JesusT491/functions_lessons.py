@@ -2,9 +2,13 @@
 # Indefinite Arguments (**kwargs) Practice #1
 # Create a function called number_attributes that counts the number of parameters that are passed, and returns that number as the result.
 
+def number_attributes(**kwargs):
+    parameters = 0
+    for value in kwargs:
+        parameters += 1
+    return parameters
 
-
-
+print(number_attributes(5,6,7,12))
 
 
 
