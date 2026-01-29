@@ -36,3 +36,6 @@ def reverse_word(word):
     return reverse.upper()
 
 print(reverse_word(word))
+
+
+

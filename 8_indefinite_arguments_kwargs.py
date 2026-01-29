@@ -38,3 +38,4 @@
 # Characteristics of Ash:
 # eye_color: brown
 # hair_color: black
+
